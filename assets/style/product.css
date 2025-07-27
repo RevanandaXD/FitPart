@@ -49,7 +49,7 @@
 .container .product-info .category-pickup .series-laptop {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   display: inline-flex;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   font-size: 1.2rem;
   font-weight: 800;
 }
@@ -153,26 +153,26 @@
 }
 @media (max-width: 768px) {
   .container, .categories, .grid-marketplace {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .category-pickup {
-    font-size: 0.7rem;
+    font-size: 3rem;
   }
   .series-laptop {
     font-size: 1.4rem;
   }
   .main-information {
-    font-size: 1.2rem;
+    font-size: 0.9rem !important;
   }
 }
 @media (max-width: 480px) {
   .container, .categories, .grid-marketplace {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .category-pickup {
-    font-size: 1.8rem;
+    font-size: 3rem !important;
   }
   .series-laptop {
     font-size: 1.2rem;
@@ -180,4 +180,4 @@
   .information-pickup {
     font-size: 1rem;
   }
-}/*# sourceMappingURL=product.css.map */
+}

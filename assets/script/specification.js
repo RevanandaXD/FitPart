@@ -76,49 +76,49 @@ function displaySpecData(result, spec, infospec) {
 function displayProductGrid(spec, result, brand, series) {
   const category = document.querySelector('.product-grid');
   category.innerHTML = `
-    <a class="product-card" data-aos="fade-right" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Battery&specValue=${spec.BatteryModel}&type=battery" data-type="battery">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Battery&specValue=${spec.BatteryModel}&type=battery" data-type="battery">
       <div class="about">
         <h2 class="type">Battery</h2>
         <p class="value">${spec.BatteryModel}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-right" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Power Adapter&specValue=${spec.PowerAdapter}&type=adapter" data-type="adapter">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Power Adapter&specValue=${spec.PowerAdapter}&type=adapter" data-type="adapter">
       <div class="about">
         <h2 class="type">Power Adapter</h2>
         <p class="value">${spec.PowerAdapter}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-right" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=ram" data-type="ram">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=ram" data-type="ram">
       <div class="about">
         <h2 class="type">Memory</h2>
         <p class="value">${spec.SpeedRam}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-right" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Storage&specValue=${spec.Gen}&type=storage" data-type="storage">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Storage&specValue=${spec.Gen}&type=storage" data-type="storage">
       <div class="about">
         <h2 class="type">Storage</h2>
         <p class="value">${spec.Gen}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-left" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Keyboard&specValue=${spec.Keyboard}&type=keyboard" data-type="keyboard">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Keyboard&specValue=${spec.Keyboard}&type=keyboard" data-type="keyboard">
       <div class="about">
         <h2 class="type">Keyboard</h2>
         <p class="value">${spec.Keyboard}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-left" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Fan&specValue=${result.deviceName}&type=fan" data-type="fan">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Fan&specValue=${result.deviceName}&type=fan" data-type="fan">
       <div class="about">
         <h2 class="type">Fan</h2>
         <p class="value">${result.deviceName}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-left" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Touch Pad&specValue=${result.deviceName}&type=touchpad" data-type="touchpad">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Touch Pad&specValue=${result.deviceName}&type=touchpad" data-type="touchpad">
       <div class="about">
         <h2 class="type">Touch Pad</h2>
         <p class="value">${result.deviceName}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="fade-left" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Hinge&specValue=${result.deviceName}&type=hinge" data-type="hinge">
+    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Hinge&specValue=${result.deviceName}&type=hinge" data-type="hinge">
       <div class="about">
         <h2 class="type">Hinge</h2>
         <p class="value">${result.deviceName}</p>

@@ -4,7 +4,7 @@ async function brandseries() {
     const data = await res.json();
 
     const brandSelect = new Choices('#input-brand', {
-      searchEnable: false,
+      searchEnable: true,
       placeholder: true,
       itemSelectText: '',
       shouldSort: false
@@ -20,7 +20,7 @@ async function brandseries() {
     };
 
     const seriesSelect = new Choices('#input-series', {
-      searchEnable: false,
+      searchEnable: true,
       placeholder: true,
       itemSelectText: '',
       shouldSort: false

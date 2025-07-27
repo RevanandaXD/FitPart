@@ -9,7 +9,7 @@ new Chart(ctx, {
     datasets: [{
       data: [33100, 12100, 8100, 6600],
       backgroundColor: ['#7FFF00', '#FFD311', '#F6A31E', '#EF5E25'],
-      barPercentage: 1.4,
+      barPercentage: 10,
       barThickness: 17,
       categoryPercentage: 10,
       borderRadius: 2,
@@ -50,6 +50,14 @@ new Chart(ctx, {
 
 toggleBtn.addEventListener('click', () => {
   navLink.classList.toggle('active')
+})
+
+document.querySelectorAll('.link').forEach(e => {
+  e.addEventListener('click', () => {
+    if(navLink.classList.contains('active')) {
+      navLink.classList.remove('active')
+    } 
+  })
 })
 
 document.addEventListener('DOMContentLoaded', function() {
