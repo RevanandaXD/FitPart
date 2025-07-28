@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  margin-left: 40px;
 }
 
 .nav-link li {
