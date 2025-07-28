@@ -1,6 +1,6 @@
 async function brandseries() {
   try {
-    const res = await fetch('../assets/script/data/data.json');
+    const res = await fetch("https://gist.githubusercontent.com/RevanandaXD/74507b813f28762cf6b6d9e9591fe588/raw/data.json");
     const data = await res.json();
 
     const brandSelect = new Choices('#input-brand', {
