@@ -199,6 +199,13 @@
   color: #fff;
 }
 
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  background: #ccc; 
+  color: #666;
+}
+
 @media (max-width: 1200px) {
   .spec-container {
     flex-wrap: wrap;

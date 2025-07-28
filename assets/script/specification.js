@@ -45,6 +45,15 @@ async function loadSpec() {
 
         displaySpecData(result, spec, infospec);
         displayProductGrid(spec, result, brand, series);
+
+        const memoryLink = document.querySelector('#memory');
+        const type = document.querySelector('.memory')
+        if (spec.Memory.includes("LPDDR")) {
+          memoryLink.classList.add('disabled'); 
+          memoryLink.removeAttribute('href'); 
+          type.textContent = "Not Avaiable"
+        }
+
       }
     } else {
       infospec.textContent = "No data found. Please select a product.";
@@ -88,9 +97,9 @@ function displayProductGrid(spec, result, brand, series) {
         <p class="value">${spec.PowerAdapter}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="zoom-in" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=ram" data-type="ram">
+    <a class="product-card" data-aos="zoom-in" id="memory" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=ram" data-type="ram">
       <div class="about">
-        <h2 class="type">Memory</h2>
+        <h2 class="type memory">Memory</h2>
         <p class="value">${spec.SpeedRam}</p>
       </div>
     </a>
