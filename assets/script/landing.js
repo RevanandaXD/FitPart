@@ -60,6 +60,25 @@ document.querySelectorAll('.link').forEach(e => {
   })
 })
 
+const valueDisplay = document.querySelector(".count-trusted");
+let interval = 2000;
+
+function startCounting() {
+  let start = 0;
+  let end = parseInt(valueDisplay.getAttribute('data-count'));
+
+  const count = Math.floor(interval / end)
+  const startInterval = setInterval(() => {
+    start += 1;
+    valueDisplay.textContent = start;
+    if (start == end) {
+      clearInterval(startInterval)
+    }
+  }, count)
+}
+
+startCounting()
+
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.link').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
