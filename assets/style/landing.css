@@ -497,11 +497,6 @@
   font-size: 0.9rem;
 }
 
-/* ==========================================================================
-   RESPONSIVE STYLES
-   ========================================================================== */
-
-/* Large Desktop (max-width: 1200px) */
 @media (max-width: 1200px) {
   .navbar {
     padding: 15px 50px;
@@ -545,7 +540,6 @@
   }
 }
 
-/* Tablet (max-width: 768px) */
 @media (max-width: 768px) {
   .navbar {
     padding: 15px 30px;
@@ -642,7 +636,6 @@
   }
 }
 
-/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .navbar {
     flex-direction: column;
