@@ -94,7 +94,7 @@
 }
 
 .main-header {
-  font-size: 4.3rem;
+  font-size: 5rem;
   line-height: 110%;
   font-weight: 700;
   width: 100%;
@@ -146,6 +146,7 @@
 
 .main-img {
   width: 45%;
+  max-width: 800px;
 }
 
 .support {
@@ -512,11 +513,12 @@
   }
 
   .main-img {
-    width: 45%;
+    width: 100%;
+    max-width: 500px;
   }
 
   .main-header {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .second-section {
@@ -557,8 +559,8 @@
   }
 
   .main-img {
-    width: 80%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 600px;
   }
 
   .main-text {
