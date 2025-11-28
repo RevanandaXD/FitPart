@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
       searchQuery = value;
       break;
     case 'memory':
-      searchQuery = value + " laptop";
+      searchQuery = value;
       break;
     case 'keyboard':
-      searchQuery = series + type;
+      searchQuery = series + productType;
       break;
     case 'fan':
       searchQuery = "fan " + series;
