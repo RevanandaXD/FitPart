@@ -97,7 +97,7 @@ function displayProductGrid(spec, result, brand, series) {
         <p class="value">${spec.PowerAdapter}</p>
       </div>
     </a>
-    <a class="product-card" data-aos="zoom-in" id="memory" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=ram" data-type="ram">
+    <a class="product-card" data-aos="zoom-in" id="memory" data-aos-delay="200" href="../product/product-page.html?brand-laptop=${brand}&series-laptop=${series}&specType=Memory&specValue=${spec.SpeedRam}&type=memory" data-type="memory">
       <div class="about">
         <h2 class="type memory">Memory</h2>
         <p class="value">${spec.SpeedRam}</p>
