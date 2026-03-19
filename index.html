@@ -8,7 +8,7 @@
   <meta name="description" content="FitPart helps you check your laptop specifications and find compatible spare parts by model series. Easily identify upgrade options for RAM, SSD, and more.">
   <meta name="keywords" content="FitPart, laptop check sparepart, laptop compatibility, laptop spareparts, sparepart laptop, laptop spare parts, sparepart laptop asus, sparepart laptop dell, spareparts laptop hp, spareparts laptop lenovo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/images/FitPart Logo Without Title.png" type="image/png">
+  <link rel="icon" href="public/favicon.png" type="image/png">
 
   <meta property="og:title" content="Laptop Specs & Compatibility Checker | FitPart">
   <meta property="og:description" content="Identify your laptop specifications and find compatible parts quickly with FitPart. Upgrade RAM, SSD, and more with ease.">
@@ -16,20 +16,20 @@
   <meta property="og:url" content="https://fitpart.com/en/">
   <meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="assets/style/page.css">
-  <link rel="stylesheet" href="assets/style/landing.css">
+  <link rel="stylesheet" href="src/css/page.css">
+  <link rel="stylesheet" href="src/css/landing.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar" data-aos="fade-down" data-aos-delay="200">
     <a href="#" class="logo">
-      <img src="assets/images/FitPart Logo.png" alt="FitPart-logo" />
+      <img src="public/images/FitPart Logo.png" alt="FitPart-logo" />
     </a>
     <div class="link-container">
       <ul class="nav-link">
         <li><a class="link" href="#main-section">About Us</a></li>
         <li><a class="link" href="#second-section">Most Search</a></li>
-        <li><a class="link-page" href="guides/guides-page.html">Guides</a></li>
+        <li><a class="link-page" href="src/pages/guide.html">Guides</a></li>
         <li><a class="link" href="#faq-section">Support</a></li>
       </ul>
     </div>
@@ -45,11 +45,11 @@
       <p class="main-text">
         Searching for the right laptop part? You don't need to be a tech expert. Our tool simplifies the process by identifying your laptop's model and instantly showing the exact spare parts that work with it.
       </p>
-      <a href="search/search-page.html" class="main-btn">
+      <a href="src/pages/search.html" class="main-btn">
         Let'go<i class="fa-solid fa-arrow-right"></i>
       </a>
     </div>
-    <img src="assets/images/Laptop-component.png" alt="laptop" class="main-img" data-aos="fade" data-aos-delay="200" />
+    <img src="public/images/Laptop-component.png" alt="laptop" class="main-img" data-aos="fade" data-aos-delay="200" />
   </section>
 
   <section class="second-section" id="second-section">
@@ -85,7 +85,7 @@
       “Many people struggle to find the right laptop spare parts either due to limited availability or uncertainty about what their device needs. A lack of information and access to trusted components makes repairs and upgrades even more challenging”
     </h2>
     <div class="developer-quote">
-      <img src="assets/images/profil-picture.jpg" alt="profil-picture" class="profil-picture">
+      <img src="public/images/profil-picture.jpg" alt="profil-picture" class="profil-picture">
       <div class="identity-text">
         <h3 class="name">
           R. Islami Pasha
@@ -106,9 +106,9 @@
       <p class="faq-text">
         Our FAQ section answers common questions about finding the right laptop spare parts. Learn how we support various brands, guide your purchase, and assist with installation. If your question isn't listed, feel free to contact us or ask directly. We're here to help.
       </p>
-      <button class="ask-btn">
-        Ask Question
-      </button>
+      <a href="mailto:revanandaislamipasha@gmail.com" class="ask-btn">
+        Ask Question  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
       <a href="#" class="contact-link">Contact Us</a>
     </div>
 
@@ -157,7 +157,7 @@
   <footer class="footer" data-aos="fade-up" data-aos-delay="200">
     <div class="footer-content">
       <div class="footer-left">
-        <img src="assets/images/FitPart Logo.png" alt="FitPart-logo" class="footer-logo" />
+        <img src="public/images/FitPart Logo.png" alt="FitPart-logo" class="footer-logo" />
         <p class="footer-desc">Making laptop part searching easier, faster, and more reliable for everyone.</p>
         <div class="social-links">
           <a href="https://www.reddit.com/user/Revananda08/"><i class="fa-brands fa-reddit"></i></a>
@@ -173,16 +173,14 @@
           <h3>FitPart</h3>
           <a href="#main-section">About Us</a>
           <a href="#second-section">Most Search</a>
-          <a href="guides/guides-page.html">Guides</a>
+          <a href="src/pages/guide.html">Guides</a>
           <a href="#faq-section">Contact</a>
         </div>
         
         <div class="link-column">
           <h3>Legal</h3>
-          <a href="#">Terms</a>
-          <a href="#">Privacy</a>
-          <a href="#">Cookies</a>
-          <a href="#">Licenses</a>
+          <a href="src/pages/terms.html">Terms</a>
+          <a href="src/pages/privacy.html">Privacy</a>
         </div>
       </div>
     </div>
@@ -195,8 +193,6 @@
   <script src="https://kit.fontawesome.com/6e36c73685.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="assets/script/animation.js"></script>
-  <script src="assets/script/landing.js"></script>
-  
-</body>
+  <script src="src/js/animation.js"></script>
+  <script src="src/js/landing.js"></script>
 </html>

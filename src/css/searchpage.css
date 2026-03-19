@@ -37,7 +37,7 @@
   padding: 120px 50px 0 50px;
 }
 .main-content .image-laptop {
-  background: url('../images/background-cover.svg') no-repeat center;
+  background: url('../../public/images/background-cover.svg') no-repeat center;
   background-size: cover;
   width: 700px;
   -o-object-fit: cover;

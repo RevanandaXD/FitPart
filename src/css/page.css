@@ -16,7 +16,7 @@ body {
   width: 100%;
   max-width: 1920px;
   overflow-x: hidden;
-  background: url(../images/background-cover.svg) no-repeat center;
+  background: url(../../public/images/background-cover.svg) no-repeat center;
 }
 
 body::-webkit-scrollbar {

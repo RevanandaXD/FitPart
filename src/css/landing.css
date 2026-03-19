@@ -122,7 +122,10 @@
   letter-spacing: 0.5px;
   font-size: 0.8rem;
   cursor: pointer;
-  transition: background 0.3s, color 0.3s, border-color 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 
 .main-btn i {
@@ -141,7 +144,7 @@
 }
 
 .link-project:hover {
-  color: #FC6A03;
+  color: #fc6a03;
 }
 
 .main-img {
@@ -198,7 +201,7 @@
   border: 2px solid #1f1f1f;
   padding: 25px 30px;
   border-radius: 30px;
-  background: #000 url("../images/background.png") center center no-repeat;
+  background: #000 url("../../public/images/background.png") center center no-repeat;
   background-size: cover;
   box-sizing: border-box;
 }
@@ -361,7 +364,9 @@
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease, padding 0.3s ease;
+  transition:
+    max-height 0.5s ease,
+    padding 0.3s ease;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -380,7 +385,7 @@
 
 .answer a {
   font-weight: 700;
-  color: #0000FF;
+  color: #0000ff;
   text-decoration: underline;
 }
 

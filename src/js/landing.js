@@ -10,7 +10,7 @@ new Chart(ctx, {
       data: [33100, 12100, 8100, 6600],
       backgroundColor: ['#7FFF00', '#FFD311', '#F6A31E', '#EF5E25'],
       barPercentage: 10,
-      barThickness: 17,
+      barThickness: 30,
       categoryPercentage: 10,
       borderRadius: 2,
       borderSkipped: false
